@@ -1,8 +1,8 @@
-package rest.api.demo.repository;
+package unicesumar.segundoBimestre.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import rest.api.demo.entity.Pessoa;
+import unicesumar.segundoBimestre.entity.Pessoa;
 
 import java.util.UUID;
 

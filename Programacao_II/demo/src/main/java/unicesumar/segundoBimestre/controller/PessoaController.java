@@ -1,10 +1,9 @@
-package rest.api.demo.controller;
+package unicesumar.segundoBimestre.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import rest.api.demo.entity.Pessoa;
-import rest.api.demo.service.PessoaService;
+import unicesumar.segundoBimestre.entity.Pessoa;
 
 
 import java.util.List;
@@ -14,7 +13,7 @@ import java.util.UUID;
 @RequestMapping("/api/Pessoas")
 public class PessoaController {
     @Autowired
-    private PessoaService PessoaService;
+    private unicesumar.segundoBimestre.service.PessoaService PessoaService;
 
     @GetMapping
     public List<Pessoa> getAll()

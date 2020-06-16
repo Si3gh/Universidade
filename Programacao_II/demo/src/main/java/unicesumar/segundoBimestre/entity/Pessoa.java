@@ -1,4 +1,4 @@
-package rest.api.demo.entity;
+package unicesumar.segundoBimestre.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

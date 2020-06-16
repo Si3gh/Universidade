@@ -1,10 +1,10 @@
-package rest.api.demo.service;
+package unicesumar.segundoBimestre.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import rest.api.demo.entity.Pessoa;
-import rest.api.demo.exception.PessoaNotFoundException;
-import rest.api.demo.repository.PessoaRepository;
+import unicesumar.segundoBimestre.entity.Pessoa;
+import unicesumar.segundoBimestre.exception.PessoaNotFoundException;
+import unicesumar.segundoBimestre.repository.PessoaRepository;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package rest.api.demo;
+package unicesumar.segundoBimestre;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -9,10 +9,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import rest.api.demo.controller.PessoaController;
-import rest.api.demo.entity.Pessoa;
-import rest.api.demo.exception.PessoaNotFoundException;
-import rest.api.demo.service.PessoaService;
+import unicesumar.segundoBimestre.controller.PessoaController;
+import unicesumar.segundoBimestre.entity.Pessoa;
+import unicesumar.segundoBimestre.exception.PessoaNotFoundException;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -31,7 +30,7 @@ public class PessoaControllerTest {
     private MockMvc mockMvc;
 
     @MockBean
-    private PessoaService PessoaService;
+    private unicesumar.segundoBimestre.service.PessoaService PessoaService;
 
     @Autowired
     private ObjectMapper objectMapper;

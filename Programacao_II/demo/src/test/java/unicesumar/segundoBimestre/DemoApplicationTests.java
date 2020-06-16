@@ -1,4 +1,4 @@
-package rest.api.demo;
+package unicesumar.segundoBimestre;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

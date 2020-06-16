@@ -1,4 +1,4 @@
-package rest.api.demo.exception;
+package unicesumar.segundoBimestre.exception;
 
 public class PessoaInvalidException extends RuntimeException{
     public PessoaInvalidException(String invalidField) {
